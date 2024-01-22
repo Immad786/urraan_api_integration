@@ -52,7 +52,8 @@ class _FirstScreenState extends State<FirstScreen> {
             itemBuilder: (context, index) {
               return ListTile(
 
-                title: Text("${myposts[index].email}"),); // ListTile
+                title: Text("${myposts[index].body
+                }"),); // ListTile
 
             },
 
